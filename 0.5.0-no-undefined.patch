@@ -1,0 +1,22 @@
+--- origsrc/celt-0.5.0/configure.ac	2008-10-09 06:04:57.000000000 -0500
++++ src/celt-0.5.0/configure.ac	2008-10-28 19:51:15.325444800 -0500
+@@ -114,7 +114,7 @@
+ fi])
+ 
+ if test $ac_cv_c_compiler_gnu = yes ; then
+-        CFLAGS="$CFLAGS -fvisibility=hidden -W -Wstrict-prototypes -Wall -Wextra -Wcast-align -Wnested-externs -Wshadow -Wno-parentheses -Wno-unused-parameter -Wno-sign-compare"
++        CFLAGS="$CFLAGS -W -Wstrict-prototypes -Wall -Wextra -Wcast-align -Wnested-externs -Wshadow -Wno-parentheses -Wno-unused-parameter -Wno-sign-compare"
+         #CFLAGS="$CFLAGS -fvisibility=hidden -W -Wstrict-prototypes -Wmissing-prototypes -Wall -Waggregate-return -Wcast-align -Wcast-qual -Wnested-externs -Wshadow -Wno-parentheses"
+ fi
+ 
+--- origsrc/celt-0.5.0/libcelt/Makefile.am	2008-10-09 06:25:57.000000000 -0500
++++ src/celt-0.5.0/libcelt/Makefile.am	2008-10-28 15:40:25.057161000 -0500
+@@ -21,7 +21,7 @@
+ 
+ #noinst_HEADERS =
+ 
+-libcelt_la_LDFLAGS = -version-info @CELT_LT_CURRENT@:@CELT_LT_REVISION@:@CELT_LT_AGE@
++libcelt_la_LDFLAGS = -version-info @CELT_LT_CURRENT@:@CELT_LT_REVISION@:@CELT_LT_AGE@ -no-undefined
+ 
+ noinst_HEADERS = _kiss_fft_guts.h arch.h bands.h fixed_c5x.h fixed_c6x.h \
+ 	cwrs.h ecintrin.h entcode.h entdec.h entenc.h fixed_generic.h float_cast.h \
