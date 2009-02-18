@@ -30,17 +30,17 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack celt-0.5.1-X-src.tar.bz2
+  unpack celt-0.5.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./celt-0.5.1-X.cygport all
+  cygport ./celt-0.5.2-X.cygport all
 
 This will create:
-  /usr/src/celt-0.5.1-X-src.tar.bz2
-  /usr/src/celt-0.5.1-X.tar.bz2
-  /usr/src/libcelt-devel-0.5.1-X.tar.bz2
-  /usr/src/libcelt0-0.5.1-X.tar.bz2
+  /usr/src/celt-0.5.2-X-src.tar.bz2
+  /usr/src/celt-0.5.2-X.tar.bz2
+  /usr/src/libcelt-devel-0.5.2-X.tar.bz2
+  /usr/src/libcelt0-0.5.2-X.tar.bz2
 
 -------------------------------------------
 
@@ -49,10 +49,10 @@ Files included in the binary package:
 (celt)
   /usr/bin/celtdec.exe
   /usr/bin/celtenc.exe
-  /usr/share/doc/celt-0.5.1/COPYING
-  /usr/share/doc/celt-0.5.1/INSTALL
-  /usr/share/doc/celt-0.5.1/README
-  /usr/share/doc/celt-0.5.1/TODO
+  /usr/share/doc/celt-0.5.2/COPYING
+  /usr/share/doc/celt-0.5.2/INSTALL
+  /usr/share/doc/celt-0.5.2/README
+  /usr/share/doc/celt-0.5.2/TODO
 
 (libcelt0)
   /usr/bin/cygcelt-0.dll
@@ -70,7 +70,7 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 0.5.1-1 -----
+----- version 0.5.2-1 -----
 Version bump.
 
 ----- version 0.5.0-1 -----
