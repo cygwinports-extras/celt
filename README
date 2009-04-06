@@ -6,18 +6,19 @@ network music performance. The code is still in early stage, so it may
 be broken from time to time and the bit-stream is not frozen yet.
 
 Runtime requirements:
-  cygwin-1.5.25-15
+  cygwin-1.7.0-45
+  libgcc1-4.3.2-2
   libogg0-1.1.3-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.63-1
-  automake1.10-1.10.1-2
+  autoconf2.5-2.63-10
+  automake1.10-1.10.1-10
   binutils-20080624-2
-  cygport-0.4.3-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  libtool-2.2.6a-1
+  cygport-0.9.6-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  libtool-2.2.7a-12
   make-3.81-2
   sed-4.1.5-2
 
@@ -49,10 +50,9 @@ Files included in the binary package:
 (celt)
   /usr/bin/celtdec.exe
   /usr/bin/celtenc.exe
-  /usr/share/doc/celt-0.5.2/COPYING
-  /usr/share/doc/celt-0.5.2/INSTALL
-  /usr/share/doc/celt-0.5.2/README
-  /usr/share/doc/celt-0.5.2/TODO
+  /usr/share/doc/celt/COPYING
+  /usr/share/doc/celt/README
+  /usr/share/doc/celt/TODO
 
 (libcelt0)
   /usr/bin/cygcelt-0.dll
@@ -70,11 +70,8 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 0.5.2-1 -----
-Version bump.
-
------ version 0.5.0-1 -----
-Initial release for Cygwin.
+----- version 0.5.2-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
