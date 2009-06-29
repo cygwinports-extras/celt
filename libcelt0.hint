@@ -1,5 +1,5 @@
 category: Audio
-requires: cygwin libgcc1
+requires: libgcc1
 external-source: celt
 sdesc: "Xiph low-delay audio codec (runtime lib)"
 ldesc: "CELT is a very low delay audio codec designed for high-quality 
