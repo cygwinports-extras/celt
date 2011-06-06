@@ -1,0 +1,8 @@
+DESCRIPTION="Xiph low delay audio codec"
+HOMEPAGE="http://celt-codec.org/"
+SRC_URI="http://downloads.xiph.org/releases/${PN}/${P}.tar.gz"
+
+PKG_NAMES="celt libcelt0_2 libcelt-devel"
+celt_CONTENTS="usr/bin/*.exe usr/share/doc/"
+libcelt0_2_CONTENTS="usr/bin/cygcelt0-2.dll"
+libcelt_devel_CONTENTS="usr/include/ usr/lib/"
